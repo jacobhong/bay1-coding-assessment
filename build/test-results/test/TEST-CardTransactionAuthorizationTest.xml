@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CardTransactionAuthorizationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-06-19T06:48:35" hostname="promethus" time="0.04">
+  <properties/>
+  <testcase name="testDERecord" classname="CardTransactionAuthorizationTest" time="0.039"/>
+  <testcase name="testERRecord" classname="CardTransactionAuthorizationTest" time="0.001"/>
+  <testcase name="testOkRecord" classname="CardTransactionAuthorizationTest" time="0.0"/>
+  <system-out><![CDATA[0110f016401288888888188112250000011000DE
+01107012250000001000ER
+0110f016411111111111111112250000001000OK
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,37 @@
+apply plugin: "java"
+apply plugin: "application"
+
+ext {
+    javaMainClass = "com.bay1.assessment.App"
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+group 'com.bay1.assessment'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+if (project.hasProperty("args")) {
+    ext.cmdargs = project.getProperty("args")
+} else {
+    ext.cmdargs = ""
+}
+
+task fileNameArg(type: JavaExec) {
+    group = "Execution"
+    description = "Run the main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    main = javaMainClass
+    args cmdargs.split()
+}

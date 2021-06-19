@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DateUtilTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-19T06:48:35" hostname="promethus" time="0.005">
+  <properties/>
+  <testcase name="testDateValid" classname="DateUtilTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

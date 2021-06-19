@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RecordValidatorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-06-19T06:48:35" hostname="promethus" time="0.032">
+  <properties/>
+  <testcase name="testInvalidTransAmountWithZip" classname="RecordValidatorTest" time="0.012"/>
+  <testcase name="testInvalidDate" classname="RecordValidatorTest" time="0.018"/>
+  <testcase name="testRequiredFieldsPresentInvalid" classname="RecordValidatorTest" time="0.0"/>
+  <testcase name="testInvalidTransAmountWithoutZip" classname="RecordValidatorTest" time="0.0"/>
+  <testcase name="testValidDate" classname="RecordValidatorTest" time="0.0"/>
+  <testcase name="testValidTransAmountWithoutZip" classname="RecordValidatorTest" time="0.0"/>
+  <testcase name="testValidTransAmountWithZip" classname="RecordValidatorTest" time="0.0"/>
+  <testcase name="testRequiredFieldsPresentValid" classname="RecordValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
