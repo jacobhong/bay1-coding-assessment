@@ -17,7 +17,6 @@ public class AuthorizationRecord {
   private Integer cardholderNameWidth;
   private Integer zipCode;
 
-
   public String getBitmap() {
     return bitmap;
   }
