@@ -1,21 +1,26 @@
 package com.bay1.assessment;
 
 import com.bay1.assessment.domain.AuthorizationRecord;
+import com.bay1.assessment.domain.Balances;
 import com.bay1.assessment.util.BitmapUtil;
 import com.bay1.assessment.util.DateUtil;
 import com.bay1.assessment.validation.RecordValidator;
 
+
+import java.math.BigDecimal;
 
 import static com.bay1.assessment.constant.AuthorizationMappingConstants.*;
 import static com.bay1.assessment.constant.AuthorizationMappingConstants.AUTHORIZE_MISSING_FIELDS;
 import static com.bay1.assessment.util.BitmapUtil.decodeBitmap;
 
 public class AuthorizationParser {
+//  private HashMap<String, Balance> balances;
   private int distance = 6;
 
   public String parseRecord(String input) {
+//    balances = new HashMap<>();
     var authorizationRecord = createAuthorizationRecord(input);
-    System.out.println(authorizationRecord.toString());
+//    System.out.println(authorizationRecord.toString());
     return authorizationRecord.toString();
   }
 
@@ -37,8 +42,14 @@ public class AuthorizationParser {
     if (Character.getNumericValue(bitmap.charAt(0)) == 1) {
       var width = Integer.valueOf(record.substring(distance, distance + WIDTH_INDICATOR));
       distance += WIDTH_INDICATOR;
-      authorizationRecord.setPan(record.substring(distance, distance + width));
+      var pan = record.substring(distance, distance + width);
+      authorizationRecord.setPan(pan);
       authorizationRecord.setPanWidth(width);
+      if (!Balances.getBalances().containsKey(pan)) {
+        BigDecimal initialBalance = new BigDecimal("100000");
+        Balances.getBalances().put(pan, initialBalance);
+        authorizationRecord.setBalance(initialBalance);
+      }
       distance += width;
     }
   }
@@ -88,13 +99,27 @@ public class AuthorizationParser {
     var requiredFieldsArePresent = RecordValidator.requiredFieldsPresent(authorizationRecord);
     var authIsValid = requiredFieldsArePresent && RecordValidator.validAuthorization(authorizationRecord);
     var expirationDateIsValid = requiredFieldsArePresent && RecordValidator.isValidDate(authorizationRecord.getExpirationDate());
+    var isBalanceValid = RecordValidator.setBalance(authorizationRecord);
     if (!requiredFieldsArePresent) {
       authorizationRecord.setResponseCode(AUTHORIZE_MISSING_FIELDS);
-    } else if (requiredFieldsArePresent && !authIsValid) {
+    } else if (requiredFieldsArePresent && !authIsValid || !isBalanceValid) {
       authorizationRecord.setResponseCode(AUTHORIZE_DECLINE);
-    } else if (requiredFieldsArePresent && authIsValid && expirationDateIsValid) {
+    } else if (requiredFieldsArePresent && authIsValid && expirationDateIsValid && isBalanceValid) {
       authorizationRecord.setResponseCode(AUTHORIZE_RESPONSE);
+//      setBalance(authorizationRecord);
     }
   }
+//
+//  protected static void setBalance(AuthorizationRecord authorizationRecord) {
+//    if (Balances.getBalances().containsKey(authorizationRecord.getPan())) {
+//      BigDecimal balance = Balances.getBalances().get(authorizationRecord.getPan());
+//      BigDecimal transAmount = new BigDecimal(authorizationRecord.getTransactionAmount());
+//      BigDecimal updatedBalance = balance.subtract(transAmount);
+//      if (updatedBalance.intValue() < 0) {
+//
+//      }
+//      Balances.getBalances().put(authorizationRecord.getPan(), updatedBalance);
+//    }
+//  }
 
 }

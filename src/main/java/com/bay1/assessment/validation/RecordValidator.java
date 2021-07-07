@@ -1,7 +1,9 @@
 package com.bay1.assessment.validation;
 
 import com.bay1.assessment.domain.AuthorizationRecord;
+import com.bay1.assessment.domain.Balances;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.time.LocalDate;
 
@@ -31,4 +33,21 @@ public class RecordValidator {
   public static boolean isValidDate(LocalDate expirationDate) {
     return expirationDate.isAfter(LocalDate.now());
   }
+
+  public static boolean setBalance(AuthorizationRecord authorizationRecord) {
+    if (Balances.getBalances().containsKey(authorizationRecord.getPan())) {
+      BigDecimal balance = Balances.getBalances().get(authorizationRecord.getPan());
+      BigDecimal transAmount = new BigDecimal(authorizationRecord.getTransactionAmount());
+      BigDecimal updatedBalance = balance.subtract(transAmount);
+      if (updatedBalance.intValue() < 0) {
+        return false;
+      } else {
+        Balances.getBalances().put(authorizationRecord.getPan(), updatedBalance);
+        authorizationRecord.setBalance(updatedBalance);
+        return true;
+      }
+    }
+    return false;
+  }
+
 }

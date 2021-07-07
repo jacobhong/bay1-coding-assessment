@@ -2,9 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e58fae6-3588-4140-b7c8-5f61b9ed17f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bay1/assessment/domain/AuthorizationRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bay1/assessment/domain/AuthorizationRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/CardTransactionAuthorizationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/CardTransactionAuthorizationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/BitmapUtilTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/CardTransactionAuthorizationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/DateUtilTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/RecordValidatorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-BitmapUtilTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-CardTransactionAuthorizationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-DateUtilTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-RecordValidatorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/AuthorizationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/AuthorizationParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/AuthorizationRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/AuthorizationRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/validation/RecordValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bay1/assessment/validation/RecordValidator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,10 +69,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/AuthorizationParser.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CardTransactionAuthorizationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-496">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="95">
+              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,6 +104,7 @@
       <find>hexToString</find>
       <find>file</find>
       <find>error rea</find>
+      <find>width</find>
     </findStrings>
     <replaceStrings>
       <replace>BigInteger</replace>
@@ -103,15 +135,17 @@
         <option value="$PROJECT_DIR$/file.txt" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/util/BitmapUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/constant/AuthorizationMappingConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/validation/RecordValidator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CardTransactionAuthorizationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/AuthorizationParser.java" />
         <option value="$PROJECT_DIR$/src/test/java/RecordValidatorTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/Balance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/Balances.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/validation/RecordValidator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CardTransactionAuthorizationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/AuthorizationRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bay1/assessment/AuthorizationParser.java" />
       </list>
     </option>
   </component>
@@ -122,10 +156,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="353" />
-    <option name="y" value="173" />
-    <option name="width" value="1053" />
-    <option name="height" value="877" />
+    <option name="x" value="-1580" />
+    <option name="y" value="28" />
+    <option name="width" value="1418" />
+    <option name="height" value="1165" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +253,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -234,11 +268,12 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.RecordValidatorTest.testRequiredFieldsPresentValid">
+  <component name="RunManager" selected="Gradle.CardTransactionAuthorizationTest.testOkRecord">
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -275,12 +310,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecordValidatorTest.testInvalidDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CardTransactionAuthorizationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RecordValidatorTest.testInvalidDate&quot;" />
+        <option name="scriptParameters" value="--tests &quot;CardTransactionAuthorizationTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardTransactionAuthorizationTest.testERRecord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CardTransactionAuthorizationTest.testERRecord&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CardTransactionAuthorizationTest.testOkRecord" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;CardTransactionAuthorizationTest.testOkRecord&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -301,46 +376,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;RecordValidatorTest.testRequiredFieldsPresentValid&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RecordValidatorTest.testValidDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RecordValidatorTest.testValidDate&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="RecordValidatorTest.testValidTransAmountWithZip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RecordValidatorTest.testValidTransAmountWithZip&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -393,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CardTransactionAuthorizationTest.testOkRecord" />
+        <item itemvalue="Gradle.CardTransactionAuthorizationTest.testERRecord" />
+        <item itemvalue="Gradle.CardTransactionAuthorizationTest" />
         <item itemvalue="Gradle.RecordValidatorTest.testRequiredFieldsPresentValid" />
         <item itemvalue="Gradle.RecordValidatorTest.testValidTransAmountWithoutZip" />
-        <item itemvalue="Gradle.RecordValidatorTest.testValidTransAmountWithZip" />
-        <item itemvalue="Gradle.RecordValidatorTest.testInvalidDate" />
-        <item itemvalue="Gradle.RecordValidatorTest.testValidDate" />
       </list>
     </recent_temporary>
   </component>
@@ -415,54 +450,53 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecordValidatorTest_testValidDate - 2021.06.18 at 23h 36m 07s.xml">
-      <configuration name="RecordValidatorTest.testValidDate" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest - 2021.07.06 at 15h 43m 33s.xml">
+      <configuration name="CardTransactionAuthorizationTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testValidDate - 2021.06.18 at 23h 36m 28s.xml">
-      <configuration name="RecordValidatorTest.testValidDate" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest - 2021.07.06 at 15h 44m 06s.xml">
+      <configuration name="CardTransactionAuthorizationTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testValidDate - 2021.06.18 at 23h 36m 37s.xml">
-      <configuration name="RecordValidatorTest.testValidDate" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testERRecord - 2021.07.06 at 15h 46m 06s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testERRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testValidDate - 2021.06.18 at 23h 37m 03s.xml">
-      <configuration name="RecordValidatorTest.testValidDate" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testERRecord - 2021.07.06 at 15h 46m 07s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testERRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testValidDate - 2021.06.18 at 23h 37m 49s.xml">
-      <configuration name="RecordValidatorTest.testValidDate" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testERRecord - 2021.07.06 at 15h 46m 59s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testERRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testInvalidDate - 2021.06.18 at 23h 37m 53s.xml">
-      <configuration name="RecordValidatorTest.testInvalidDate" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testERRecord - 2021.07.06 at 15h 48m 38s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testERRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testValidTransAmountWithZip - 2021.06.18 at 23h 39m 21s.xml">
-      <configuration name="RecordValidatorTest.testValidTransAmountWithZip" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testOkRecord - 2021.07.06 at 15h 49m 05s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testOkRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testValidTransAmountWithZip - 2021.06.18 at 23h 39m 35s.xml">
-      <configuration name="RecordValidatorTest.testValidTransAmountWithZip" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testOkRecord - 2021.07.06 at 15h 50m 53s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testOkRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testValidTransAmountWithoutZip - 2021.06.18 at 23h 40m 04s.xml">
-      <configuration name="RecordValidatorTest.testValidTransAmountWithoutZip" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testOkRecord - 2021.07.06 at 15h 51m 09s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testOkRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="RecordValidatorTest_testRequiredFieldsPresentValid - 2021.06.18 at 23h 40m 33s.xml">
-      <configuration name="RecordValidatorTest.testRequiredFieldsPresentValid" configurationId="GradleRunConfiguration" />
+    <history-entry file="CardTransactionAuthorizationTest_testOkRecord - 2021.07.06 at 17h 58m 14s.xml">
+      <configuration name="CardTransactionAuthorizationTest.testOkRecord" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1580" y="28" width="1418" height="1165" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23988095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21368124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924336" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42740285" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33231083" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40242764" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33114034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32924336" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.751634" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.3608" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -478,7 +512,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/validation/RecordValidator.java</url>
-          <line>33</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
@@ -490,9 +524,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/validation/RecordValidator.java</url>
-          <line>31</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/AuthorizationRecord.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/CardTransactionAuthorizationTest.java</url>
+          <line>11</line>
+          <properties class="CardTransactionAuthorizationTest" method="testOkRecord">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -698,92 +746,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/util/BitmapUtil.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/math/BigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="400">
+          <caret line="3930" column="18" selection-start-line="3930" selection-start-column="18" selection-end-line="3930" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DateUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/util/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="152">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/util/BitmapUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BitmapUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/constant/AuthorizationMappingConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/Balances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/constant/AuthorizationMappingConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BitmapUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CardTransactionAuthorizationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DateUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RecordValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        <state relative-caret-position="288">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/AuthorizationRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/validation/RecordValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="503">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1141#1142#0" expanded="true" />
@@ -792,10 +843,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/Balance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/domain/AuthorizationRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="311">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,8 +880,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bay1/assessment/AuthorizationParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="117">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CardTransactionAuthorizationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -13,3 +13,5 @@
 
 - some decisions I made was to google logic I didn't know off hand to save time for the BitmapUtil class
 - I also refactored a few times as I saw I can improve some things even though I exceeded one hour
+
+associate 1000 to pan on first transaction

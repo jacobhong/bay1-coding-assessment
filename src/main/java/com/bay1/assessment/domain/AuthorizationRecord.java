@@ -1,5 +1,6 @@
 package com.bay1.assessment.domain;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
@@ -16,6 +17,15 @@ public class AuthorizationRecord {
   private String cardholderName;
   private Integer cardholderNameWidth;
   private Integer zipCode;
+  private BigDecimal balance;
+
+  public BigDecimal getBalance() {
+    return balance;
+  }
+
+  public void setBalance(BigDecimal balance) {
+    this.balance = balance;
+  }
 
   public String getBitmap() {
     return bitmap;
@@ -101,6 +111,11 @@ public class AuthorizationRecord {
     sb.append(this.responseCode != null ? this.responseCode : "");
     sb.append(this.cardholderName != null ? this.cardholderNameWidth + this.cardholderName : "");
     sb.append(this.zipCode != null ? this.zipCode.toString() : "");
+
+    if (this.pan != null && this.balance != null) {
+      System.out.println("pan: " + this.pan);
+      System.out.println("balance: " + this.balance.toString());
+    }
     return sb.toString();
 
   }
